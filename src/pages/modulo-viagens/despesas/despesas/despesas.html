@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color = "tijuca">
     <ion-title>Despesas da Viagem</ion-title>
   </ion-navbar>
 </ion-header>
@@ -32,5 +32,5 @@
       <ion-input type="float" type="number" [(ngModel)]="despesas.valor" required #iptValor="ngModel"></ion-input>
     </ion-item>
   </ion-list>
-  <button ion-button full (click)="adicionarDespesas(despesas);showAlert()">Adicionar</button>
+  <button color = "tijuca" ion-button full (click)="adicionarDespesas(despesas);showAlert()">Adicionar</button>
 </ion-content>
