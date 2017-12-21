@@ -7,5 +7,4 @@ export const firebaseConfig = {
     storageBucket: "app-tijuca-1f135.appspot.com",
     messagingSenderId: "867905888320"
 
-
 }
